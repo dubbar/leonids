@@ -23,6 +23,12 @@ To modify styling and highlight colors edit `/_sass/_pygments.scss`.
 }
 {% endhighlight %}
 
+
+
+
+
+
+
 {% highlight html %}
 {% raw %}
 <nav class="pagination" role="navigation">
@@ -113,3 +119,17 @@ module Jekyll
   end
 end
 ~~~
+
+###Python highlighting
+
+~~~ python
+
+print('hi')
+if 12>3:
+    print('yes')
+#this is comment
+
+    
+~~~ 
+hi  <br />
+yes
